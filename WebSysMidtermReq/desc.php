@@ -26,7 +26,7 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['password'])) {
         <div class="title">
             <h1>Project Description</h1>
         </div>
-        <div class="content">
+        <div class="content2">
             <p>
             General description includes what problem the application will address, how the application will
             address the problem, the proposed users of the application, and general features of the application. 

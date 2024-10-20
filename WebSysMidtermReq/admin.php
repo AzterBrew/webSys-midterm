@@ -26,7 +26,7 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['password'])) {
         <div class="title">
             <h1>Admin Page</h1>
         </div>
-        <div class="content">
+        <div class="content2">
             <p>
             Include general information about your group and proposed project here. Use CSS and images to enhance the appearance of the 
             different web pages.
