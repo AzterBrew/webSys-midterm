@@ -13,7 +13,7 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['password'])) {
     <title>Admin Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body class="home">
     <header>
         <nav>
             <a href="admin.php">Admin Page</a>
@@ -27,9 +27,16 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['password'])) {
             <h1>Admin Page</h1>
         </div>
         <div class="content2">
+            <br>    
+            <h3>PPG : An Online Point of Sale System</h3>
+            <br>
             <p>
-            Include general information about your group and proposed project here. Use CSS and images to enhance the appearance of the 
-            different web pages.
+            The online point of sales system is a system developed by a group of developers to discuss the importance of tracking 
+            and inventory management in varied realms of businesses.</p>
+            <br>
+            <p>
+            By enhancing the efficiency of operations, the system will aim to provide an improved approach to managing sales, 
+            stook levels, and other operational processes within the business management.
             </p>
         </div>
     </div>
