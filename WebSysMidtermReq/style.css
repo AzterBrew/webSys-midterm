@@ -8,6 +8,11 @@
     font-family:'poppins', sans-serif;
 }
 
+.bg-login{
+    background-image: url("./images/bg-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 body {
     background: #96d6da; 
     display: flex;
@@ -35,7 +40,16 @@ body {
     align-items: center;
 }
 
-.index-form, h1{
+.login1 h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500px;
+    color: black;
+    margin-top: 115px;  
+    padding-bottom: 52;
+}
+
+.index-form{
     text-align: center;
     font-size: 2.5rem;
     font-weight: 500px;
@@ -47,20 +61,26 @@ body {
     line-height: 40px;
     margin-bottom: 5px;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 500px;
     color: black;
     text-align: center;
+    
 }
 
 .index-form, #login{
     position: relative;
     display: flex;
     margin: 30px 0;
-
+    opacity: 85%;
     /* background-color: #c3e1e3;
     padding: 225px;
     border-radius: 50px; */
-    
+}
+
+#login{
+    margin-right: 150px;
+    margin-left: 80px;
+    margin-top: 25px;
 }
 
 .content{
@@ -75,18 +95,22 @@ body {
 
 .form-img{
     flex-basis: 250px;
-    padding: 3em 3em;
-    background: #96d6da;
+    /* padding: 3em 3em; */
+    background: #f0f2f2;
     background-size: cover;
-    padding: 40%;
+    padding-left:10%;
+    padding-right: 10%;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+
     align-items: center;
     display: grid;
 }
 
 .form-img img{
-    max-width: 100%;
+    max-width: 250px;
+    width: 200px;
+    height: auto;
 }
 
 p{
@@ -96,8 +120,11 @@ p{
     text-align: center;
 }
 
-.btn, button, input{
-    border-radius:35px;
+.btn, button, input{ /* beh yung sa input to yung container sa pass */
+    border-radius:15px;
+    margin-left: 35px;
+    padding: 8px;
+    margin: 5px;
 }
 
 .btn:hover,.button:hover{
@@ -109,7 +136,7 @@ a{
 
 }
 .index-form form{
-    margin: 100px 0;
+    margin: 50px 0;
 }
 .index-form input{
     outline: none;
@@ -127,7 +154,7 @@ a{
 }
 .index-form input:focus{
     background: transparent;
-    border: 1px solid #96d6da;
+    border: 5px solid #96d6da;
 
 }
 

@@ -7,31 +7,32 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<body>
+<body class="bg-login"> 
+    
+    <div class="login1"><h1>Login</h1>
     <div id="login">
         <form action="login.php" method="post" class="indexform">
             <div class="content">
-                <h1>Midterm Requirement GRP03</h1>
-                <h2>User Login</h2>
-                <?php   //This lets us have different values depending on conditions by '$_GET'ing that result of a condition from a session. 
-                        //<p> class toh btw
-                    if (isset($_GET['error'])) {
-                        echo '<p class="error">' . $_GET['error'] . '</p>';
-                    }
-                ?>
-                <label>Username:</label>
-                <input type="text" name="uname" placeholder="Username">
-                <label>Password:</label>
-                <input type="password" name="password" placeholder="Password">
-                <div class="btn">
-                    <button type="submit">Login</button>
-                    <button type="reset">Reset</button>
-                </div>
+            <h2>User Login</h2>
+            <?php   //This lets us have different values depending on conditions by '$_GET'ing that result of a condition from a session. 
+                    //<p> class toh btw
+                if (isset($_GET['error'])) {
+                    echo '<p class="error">' . $_GET['error'] . '</p>';
+                }
+            ?>
+            <input type="text" name="uname" placeholder="User Name"> 
+            <br>
+            <input type="password" name="password" placeholder="User Password">
+            <div class="btn">
+                <button type="submit">Login</button>
+                <button type="reset">Reset</button>
             </div>
         </form>
+    </div>
         <div class="form-img">
             <img src="./images/bg-img.png"alt="Background Image">
         </div>
     </div>
+            </div>
 </body>
 </html>
