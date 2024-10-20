@@ -31,7 +31,7 @@
             </div>
         </form>
         <div class="form-img">
-            <img src="./WebSysMidtermReq/images/bg-img.png"alt="Background Image">
+            <img src="./images/bg-img.png"alt="Background Image">
         </div>
     </div>
 </body>
