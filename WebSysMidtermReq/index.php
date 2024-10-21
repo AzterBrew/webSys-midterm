@@ -14,8 +14,7 @@
         <form action="login.php" method="post" class="indexform">
             <div class="content">
             <h2>User Login</h2>
-            <?php   //This lets us have different values depending on conditions by '$_GET'ing that result of a condition from a session. 
-                    //<p> class toh btw
+            <?php   
                 if (isset($_GET['error'])) {
                     echo '<p class="error">' . $_GET['error'] . '</p>';
                 }

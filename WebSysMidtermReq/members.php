@@ -51,9 +51,6 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['password'])) {
 
 </body>
 </html>
-
-
-
 <?php
 
 } else {

@@ -11,9 +11,7 @@
         <h1>Incorrect Login Credentials</h1>
     </div>
     <div>
-        <!-- THIS OR BUTTON -->
-        <a href="index.php">Return to User Login Page</a> 
-        <!-- CHOOSE IF HREF OR BUTTON -->
+       
         <form action="index.php">
             <button type="submit">Return to User Login Page</button>
         </form>

@@ -24,29 +24,6 @@ if (empty($uname)) {
     exit();
 }
 
-// $sql = "SELECT * FROM assess5 WHERE user_name = '$uname' AND password = '$pass';";
-
-// $results = mysqli_query($conn, $sql);
-
-// // THIS IS IF IM GONNA SHOW VALIDATION SEPARATELY 
-// // TEST THIS IN THE INDEX PHP IF IT WORKS
-
-// if (mysqli_num_rows($results) === 1) {
-//     $row = mysqli_fetch_assoc($results);
-//     if ($row['user_name'] == $uname && $row['password'] == $pass) {
-//         echo 'Logged In!';
-//         $_SESSION['user_name'] = $row['user_name'];
-//         $_SESSION['password'] = $row['password'];
-//         $_SESSION['id'] = $row['id'];
-//         header("Location: main.php");
-//         exit();
-//     } 
-    
-// } else {
-//     header("Location: index.php?error=Incorrect User Name or Password");
-//     exit();
-// }
-
 if ($uname === $setname && $pass === $setpass) {
     echo 'Logged in!';
     $_SESSION['user_name'] = $uname;

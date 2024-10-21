@@ -48,6 +48,4 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['password'])) {
     header("Location: index.php");
     exit();
 }
-
-
 ?>
