@@ -66,7 +66,7 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['password'])) {
             password with their company email.</p>
             <br>
             <p>            
-            • <b>Customer Record Creation.</b> Creating records of customer to be used for creating order records in the system.</p>
+            • <b>Customer Record Creation.</b> Creating records of customers to be used for creating order records in the system.</p>
             <br>
             <p>
             • <b>Dashboard or Overview.</b> Summary of the stored records are shown, which may include the total of records, 

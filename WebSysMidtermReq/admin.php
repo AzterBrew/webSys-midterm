@@ -36,7 +36,7 @@ if (isset($_SESSION['user_name']) && isset($_SESSION['password'])) {
             <br>
             <p>
             By enhancing the efficiency of operations, the system will aim to provide an improved approach to managing sales, 
-            stook levels, and other operational processes within the business management.
+            stock levels, and other operational processes within the business management.
             </p>
         </div>
     </div>

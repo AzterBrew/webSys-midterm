@@ -238,8 +238,13 @@ nav a.active {
     text-align: center;
 }
 
-.memcontainer p {
+.memcontainer #descrip{
     text-align: justify;
     margin: 5%;
     text-indent: 40px;
+}
+
+#role{
+    font-weight: 700;
+    text-align: center;
 }
